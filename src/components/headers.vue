@@ -16,6 +16,12 @@
             <v-btn
               :x-small="$vuetify.breakpoint.smAndDown"
               text
+              @click="aboutHome"
+              >Home</v-btn
+            >
+            <v-btn
+              :x-small="$vuetify.breakpoint.smAndDown"
+              text
               @click="aboutPage"
               >About</v-btn
             >
@@ -41,6 +47,9 @@
 <script>
 export default {
   methods: {
+    aboutHome() {
+      this.$router.push("/");
+    },
     aboutPage() {
       this.$router.push("/About");
     },

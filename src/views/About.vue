@@ -3,7 +3,7 @@
     <v-img
       src="https://images.unsplash.com/photo-1505238680356-667803448bb6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
     >
-      <v-layout>
+      <v-layout class="mt-12">
         <v-container>
           <v-flex xs12>
             <v-layout justify-center class="mt-12">
