@@ -66,6 +66,12 @@ export default {
           link: "https://www.instagram.com/gilank017/",
           icon: "mdi-instagram",
         },
+        {
+          name: "WhatsApp",
+          value: "082131076237",
+          link: "https://api.whatsapp.com/send?phone=6282131076237",
+          icon: "mdi-whatsapp",
+        },
       ],
     };
   },
